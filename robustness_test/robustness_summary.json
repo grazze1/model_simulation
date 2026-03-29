@@ -1,0 +1,18 @@
+{
+  "result_count": 40,
+  "experiments": [
+    "robot_quantity",
+    "failure_multiplier",
+    "queue_load",
+    "processing_time_multiplier",
+    "shift_duration"
+  ],
+  "output_csv": "/home/flydream/VsCodeprojection/codex/result/robustness_results.csv",
+  "plots": [
+    "/home/flydream/VsCodeprojection/codex/result/robustness_robot_quantity.png",
+    "/home/flydream/VsCodeprojection/codex/result/robustness_failure_multiplier.png",
+    "/home/flydream/VsCodeprojection/codex/result/robustness_queue_load.png",
+    "/home/flydream/VsCodeprojection/codex/result/robustness_processing_time_multiplier.png",
+    "/home/flydream/VsCodeprojection/codex/result/robustness_shift_duration.png"
+  ]
+}

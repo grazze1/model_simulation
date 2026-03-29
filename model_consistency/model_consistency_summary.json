@@ -1,0 +1,538 @@
+{
+  "iterations": 500,
+  "base_seed": 20260329,
+  "n_robots": 120,
+  "shift_hours": 12.0,
+  "enable_predebug": false,
+  "output_dir": "/home/flydream/VsCodeprojection/codex/result/model_2",
+  "overall_average_model_deviation": 0.1324402114873131,
+  "overall_raw_average_model_deviation": 6599385.1878755605,
+  "overall_max_model_deviation": 9009009009.009008,
+  "reportable_error_baseline_threshold": 0.001,
+  "problems": {
+    "Problem 1": {
+      "average_relative_error": 7.661422949028995e-18,
+      "raw_average_relative_error": 7.661422949028995e-18,
+      "max_relative_error": 3.419208350286806e-16,
+      "metric_count": 4,
+      "reportable_error_baseline_threshold": 0.001,
+      "metrics": {
+        "P_out": {
+          "display_name": "Overall pass probability",
+          "original": {
+            "mean": 0.9952022674742835,
+            "std": 0.0005248794756320166,
+            "variance": 2.754984639397408e-07,
+            "ci95_low": 0.9951562597597332,
+            "ci95_high": 0.9952482751888339
+          },
+          "refactored": {
+            "mean": 0.9952022674742835,
+            "std": 0.0005248794756320166,
+            "variance": 2.754984639397408e-07,
+            "ci95_low": 0.9951562597597332,
+            "ci95_high": 0.9952482751888339
+          },
+          "absolute_difference": {
+            "mean": 0.0,
+            "std": 0.0,
+            "variance": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "relative_error": {
+            "mean": 0.0,
+            "std": 0.0,
+            "variance": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          }
+        },
+        "P_E": {
+          "display_name": "Stage E pass probability",
+          "original": {
+            "mean": 0.9997822788921652,
+            "std": 4.638841421881646e-05,
+            "variance": 2.151884973736493e-09,
+            "ci95_low": 0.9997782127683807,
+            "ci95_high": 0.9997863450159497
+          },
+          "refactored": {
+            "mean": 0.9997822788921652,
+            "std": 4.638841421881646e-05,
+            "variance": 2.151884973736493e-09,
+            "ci95_low": 0.9997782127683807,
+            "ci95_high": 0.9997863450159497
+          },
+          "absolute_difference": {
+            "mean": 0.0,
+            "std": 0.0,
+            "variance": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "relative_error": {
+            "mean": 0.0,
+            "std": 0.0,
+            "variance": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          }
+        },
+        "P_G": {
+          "display_name": "Hidden defect pool probability",
+          "original": {
+            "mean": 0.002701132367311486,
+            "std": 0.00025460304310795964,
+            "variance": 6.482270955983356e-08,
+            "ci95_low": 0.002678815426614112,
+            "ci95_high": 0.0027234493080088604
+          },
+          "refactored": {
+            "mean": 0.002701132367311486,
+            "std": 0.00025460304310795964,
+            "variance": 6.482270955983356e-08,
+            "ci95_low": 0.002678815426614112,
+            "ci95_high": 0.0027234493080088604
+          },
+          "absolute_difference": {
+            "mean": 0.0,
+            "std": 0.0,
+            "variance": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "relative_error": {
+            "mean": 0.0,
+            "std": 0.0,
+            "variance": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          }
+        },
+        "E_T_all": {
+          "display_name": "Expected total processing time (h)",
+          "original": {
+            "mean": 10.576719981150795,
+            "std": 0.24753095221943783,
+            "variance": 0.061271572306661616,
+            "ci95_low": 10.555022936551437,
+            "ci95_high": 10.598417025750154
+          },
+          "refactored": {
+            "mean": 10.576719981150795,
+            "std": 0.2475309522194378,
+            "variance": 0.0612715723066616,
+            "ci95_low": 10.555022936551437,
+            "ci95_high": 10.598417025750154
+          },
+          "absolute_difference": {
+            "mean": 3.232969447708456e-16,
+            "std": 7.307164909187527e-16,
+            "variance": 5.339465901006156e-31,
+            "ci95_low": 2.592468203286476e-16,
+            "ci95_high": 3.8734706921304356e-16
+          },
+          "relative_error": {
+            "mean": 3.064569179611598e-17,
+            "std": 6.920688079994282e-17,
+            "variance": 4.789592350057494e-33,
+            "ci95_low": 2.4579441228923614e-17,
+            "ci95_high": 3.671194236330835e-17
+          }
+        }
+      }
+    },
+    "Problem 2": {
+      "average_relative_error": 0.18906006543092818,
+      "raw_average_relative_error": 11749957.11739211,
+      "max_relative_error": 9009009009.009008,
+      "metric_count": 6,
+      "reportable_error_baseline_threshold": 0.001,
+      "metrics": {
+        "makespan_days": {
+          "display_name": "Makespan (days)",
+          "original": {
+            "mean": 59.96127285404867,
+            "std": 0.7316834452579122,
+            "variance": 0.5353606640644881,
+            "ci95_low": 59.897137972321644,
+            "ci95_high": 60.0254077357757
+          },
+          "refactored": {
+            "mean": 59.728812033607,
+            "std": 0.6680916369931826,
+            "variance": 0.44634643542023045,
+            "ci95_low": 59.67025121963878,
+            "ci95_high": 59.78737284757522
+          },
+          "absolute_difference": {
+            "mean": 0.49428709551290695,
+            "std": 0.491494605675075,
+            "variance": 0.2415669474076975,
+            "ci95_low": 0.45120569383744125,
+            "ci95_high": 0.5373684971883727
+          },
+          "relative_error": {
+            "mean": 0.008218963446567652,
+            "std": 0.008131481928932245,
+            "variance": 6.612099836055167e-05,
+            "ci95_low": 0.00750620762961223,
+            "ci95_high": 0.008931719263523073
+          }
+        },
+        "qualified_count": {
+          "display_name": "Qualified robots",
+          "original": {
+            "mean": 110.988,
+            "std": 2.952505813908302,
+            "variance": 8.717290581162324,
+            "ci95_low": 110.7292014548086,
+            "ci95_high": 111.2467985451914
+          },
+          "refactored": {
+            "mean": 110.964,
+            "std": 2.9766465778959046,
+            "variance": 8.860424849699399,
+            "ci95_low": 110.70308542354783,
+            "ci95_high": 111.22491457645216
+          },
+          "absolute_difference": {
+            "mean": 0.144,
+            "std": 0.35709807907093577,
+            "variance": 0.1275190380761523,
+            "ci95_low": 0.11269897328606146,
+            "ci95_high": 0.17530102671393852
+          },
+          "relative_error": {
+            "mean": 0.0012973390393480545,
+            "std": 0.0032184082912517227,
+            "variance": 1.0358151929197833e-05,
+            "ci95_low": 0.001015233114379413,
+            "ci95_high": 0.001579444964316696
+          }
+        },
+        "omission_probability": {
+          "display_name": "Omission probability",
+          "original": {
+            "mean": 5.34134007585335e-05,
+            "std": 0.0006881868194840692,
+            "variance": 4.736010985115988e-07,
+            "ci95_low": -6.908833617228105e-06,
+            "ci95_high": 0.0001137356351342951
+          },
+          "refactored": {
+            "mean": 7.049974175791798e-05,
+            "std": 0.0007859239336687606,
+            "variance": 6.176764295133784e-07,
+            "ci95_low": 1.6104715974845133e-06,
+            "ci95_high": 0.00013938901191835144
+          },
+          "absolute_difference": {
+            "mean": 0.00012391314251645148,
+            "std": 0.0010410240983742603,
+            "variance": 1.0837311733959415e-06,
+            "ci95_low": 3.266335702938473e-05,
+            "ci95_high": 0.00021516292800351824
+          },
+          "relative_error": {
+            "mean": 70499741.76391798,
+            "std": 785923933.6682212,
+            "variance": 6.176764295125307e+17,
+            "ci95_low": 1610471.6035317928,
+            "ci95_high": 139389011.9243042
+          }
+        },
+        "misjudgment_probability": {
+          "display_name": "Misjudgment probability",
+          "original": {
+            "mean": 0.012944523203788636,
+            "std": 0.005112477968056217,
+            "variance": 2.6137430973860224e-05,
+            "ci95_low": 0.012496394751602923,
+            "ci95_high": 0.01339265165597435
+          },
+          "refactored": {
+            "mean": 0.01279393051786978,
+            "std": 0.005266416457669545,
+            "variance": 2.7735142305612638e-05,
+            "ci95_low": 0.01233230876214061,
+            "ci95_high": 0.013255552273598951
+          },
+          "absolute_difference": {
+            "mean": 0.004349351281448312,
+            "std": 0.003701478018412124,
+            "variance": 1.3700939520788146e-05,
+            "ci95_low": 0.004024902427965796,
+            "ci95_high": 0.004673800134930828
+          },
+          "relative_error": {
+            "mean": 0.415261426450667,
+            "std": 0.5164310546301397,
+            "variance": 0.26670103418639834,
+            "ci95_low": 0.3699942486519469,
+            "ci95_high": 0.4605286042493871
+          }
+        },
+        "throughput_per_day": {
+          "display_name": "Throughput per day",
+          "original": {
+            "mean": 1.8509513643064819,
+            "std": 0.041967894943994624,
+            "variance": 0.0017613042060301695,
+            "ci95_low": 1.847272716120562,
+            "ci95_high": 1.8546300124924018
+          },
+          "refactored": {
+            "mean": 1.8577297765707608,
+            "std": 0.0424836997215925,
+            "variance": 0.0018048647420344387,
+            "ci95_low": 1.8540059161026445,
+            "ci95_high": 1.861453637038877
+          },
+          "absolute_difference": {
+            "mean": 0.01573723078774126,
+            "std": 0.014896880844731591,
+            "variance": 0.000221917058902131,
+            "ci95_low": 0.014431461609457113,
+            "ci95_high": 0.017042999966025405
+          },
+          "relative_error": {
+            "mean": 0.008540154729374064,
+            "std": 0.008139267831449725,
+            "variance": 6.624768083207231e-05,
+            "ci95_low": 0.007826716447972667,
+            "ci95_high": 0.009253593010775461
+          }
+        },
+        "stage_E_station_utilization": {
+          "display_name": "Stage E utilization",
+          "original": {
+            "mean": 0.5486145607959958,
+            "std": 0.02415321942325371,
+            "variance": 0.0005833780085078403,
+            "ci95_low": 0.546497437768166,
+            "ci95_high": 0.5507316838238256
+          },
+          "refactored": {
+            "mean": 0.27009268137901393,
+            "std": 0.012917587510628091,
+            "variance": 0.00016686406709473487,
+            "ci95_low": 0.26896040491087453,
+            "ci95_high": 0.27122495784715334
+          },
+          "absolute_difference": {
+            "mean": 0.27852187941698187,
+            "std": 0.02262445858655466,
+            "variance": 0.0005118661263347268,
+            "ci95_low": 0.2765387581847182,
+            "ci95_high": 0.28050500064924555
+          },
+          "relative_error": {
+            "mean": 0.5071168038812697,
+            "std": 0.025242317927158375,
+            "variance": 0.000637174614335741,
+            "ci95_low": 0.504904217160514,
+            "ci95_high": 0.5093293906020253
+          }
+        }
+      }
+    },
+    "Problem 3": {
+      "average_relative_error": 0.18162588582986805,
+      "raw_average_relative_error": 5848403.383609385,
+      "max_relative_error": 8849557522.123894,
+      "metric_count": 6,
+      "reportable_error_baseline_threshold": 0.001,
+      "metrics": {
+        "makespan_days": {
+          "display_name": "Makespan (days)",
+          "original": {
+            "mean": 31.41394912002647,
+            "std": 0.3605945234705314,
+            "variance": 0.1300284103569396,
+            "ci95_low": 31.382341616448134,
+            "ci95_high": 31.445556623604805
+          },
+          "refactored": {
+            "mean": 31.281728371940634,
+            "std": 0.3597925259286551,
+            "variance": 0.12945066171412198,
+            "ci95_low": 31.25019116654634,
+            "ci95_high": 31.313265577334928
+          },
+          "absolute_difference": {
+            "mean": 0.26173894715065,
+            "std": 0.21981845445895615,
+            "variance": 0.04832015292072418,
+            "ci95_low": 0.24247101008098662,
+            "ci95_high": 0.2810068842203134
+          },
+          "relative_error": {
+            "mean": 0.008313077242014372,
+            "std": 0.006953301259540925,
+            "variance": 4.8348398405933405e-05,
+            "ci95_low": 0.007703593514067131,
+            "ci95_high": 0.008922560969961614
+          }
+        },
+        "qualified_count": {
+          "display_name": "Qualified robots",
+          "original": {
+            "mean": 110.668,
+            "std": 3.01528770100627,
+            "variance": 9.09195991983968,
+            "ci95_low": 110.40369837977018,
+            "ci95_high": 110.93230162022984
+          },
+          "refactored": {
+            "mean": 110.656,
+            "std": 2.9972706355157603,
+            "variance": 8.98363126252505,
+            "ci95_low": 110.3932776451913,
+            "ci95_high": 110.91872235480871
+          },
+          "absolute_difference": {
+            "mean": 0.132,
+            "std": 0.3617149089416987,
+            "variance": 0.1308376753507014,
+            "ci95_low": 0.10029429030514364,
+            "ci95_high": 0.16370570969485637
+          },
+          "relative_error": {
+            "mean": 0.0012014683514350514,
+            "std": 0.0032987020653034685,
+            "variance": 1.088143531563737e-05,
+            "ci95_low": 0.0009123243668579812,
+            "ci95_high": 0.0014906123360121217
+          }
+        },
+        "omission_probability": {
+          "display_name": "Omission probability",
+          "original": {
+            "mean": 7.147418354314905e-05,
+            "std": 0.0007969564703674344,
+            "variance": 6.351396156605194e-07,
+            "ci95_low": 1.6178689034337636e-06,
+            "ci95_high": 0.00014133049818286432
+          },
+          "refactored": {
+            "mean": 5.310843741009189e-05,
+            "std": 0.0006843234965677381,
+            "variance": 4.6829864795469517e-07,
+            "ci95_low": -6.875161781399723e-06,
+            "ci95_high": 0.0001130920366015835
+          },
+          "absolute_difference": {
+            "mean": 8.886833523895524e-05,
+            "std": 0.000883784305565758,
+            "variance": 7.810746987643491e-07,
+            "ci95_low": 1.140122527901e-05,
+            "ci95_high": 0.00016633544519890046
+          },
+          "relative_error": {
+            "mean": 35090419.3980919,
+            "std": 554293437.6579285,
+            "variance": 3.072412150306438e+17,
+            "ci95_low": -13495542.60044676,
+            "ci95_high": 83676381.39663056
+          }
+        },
+        "misjudgment_probability": {
+          "display_name": "Misjudgment probability",
+          "original": {
+            "mean": 0.01322771567381458,
+            "std": 0.005234184760905187,
+            "variance": 2.7396690111292093e-05,
+            "ci95_low": 0.012768919150873222,
+            "ci95_high": 0.013686512196755938
+          },
+          "refactored": {
+            "mean": 0.013113948464015613,
+            "std": 0.00540056774691406,
+            "variance": 2.916613198900841e-05,
+            "ci95_low": 0.012640567829327258,
+            "ci95_high": 0.013587329098703967
+          },
+          "absolute_difference": {
+            "mean": 0.004259889834326125,
+            "std": 0.0033405041383153047,
+            "variance": 1.1158967898101676e-05,
+            "ci95_low": 0.003967081736496344,
+            "ci95_high": 0.004552697932155906
+          },
+          "relative_error": {
+            "mean": 0.38260829221799886,
+            "std": 0.4575011760780063,
+            "variance": 0.2093073261127589,
+            "ci95_low": 0.3425065460217352,
+            "ci95_high": 0.4227100384142625
+          }
+        },
+        "throughput_per_day": {
+          "display_name": "Throughput per day",
+          "original": {
+            "mean": 3.522806247881518,
+            "std": 0.08350999892746527,
+            "variance": 0.006973919920865251,
+            "ci95_low": 3.51548627373293,
+            "ci95_high": 3.530126222030106
+          },
+          "refactored": {
+            "mean": 3.5372582350841117,
+            "std": 0.08087753600569583,
+            "variance": 0.006541175830352625,
+            "ci95_low": 3.530169006484344,
+            "ci95_high": 3.5443474636838794
+          },
+          "absolute_difference": {
+            "mean": 0.02973971781296816,
+            "std": 0.024065287101210493,
+            "variance": 0.0005791380432636881,
+            "ci95_low": 0.027630302392999025,
+            "ci95_high": 0.031849133232937296
+          },
+          "relative_error": {
+            "mean": 0.008486772399395184,
+            "std": 0.006941658924537739,
+            "variance": 4.8186628624614435e-05,
+            "ci95_low": 0.007878309167105312,
+            "ci95_high": 0.009095235631685055
+          }
+        },
+        "stage_E_station_utilization": {
+          "display_name": "Stage E utilization",
+          "original": {
+            "mean": 0.550519319779936,
+            "std": 0.020259557811218055,
+            "variance": 0.00041044968270608656,
+            "ci95_low": 0.5487434912403051,
+            "ci95_high": 0.5522951483195668
+          },
+          "refactored": {
+            "mean": 0.27342044458310916,
+            "std": 0.010853773106631404,
+            "variance": 0.00011780439065023513,
+            "ci95_low": 0.2724690694235407,
+            "ci95_high": 0.2743718197426776
+          },
+          "absolute_difference": {
+            "mean": 0.2770988751968268,
+            "std": 0.018777568351620783,
+            "variance": 0.0003525970731997904,
+            "ci95_low": 0.275452948760801,
+            "ci95_high": 0.2787448016328526
+          },
+          "relative_error": {
+            "mean": 0.5029548080071177,
+            "std": 0.021001528995036364,
+            "variance": 0.0004410642201293532,
+            "ci95_low": 0.5011139428257158,
+            "ci95_high": 0.5047956731885196
+          }
+        }
+      }
+    }
+  },
+  "plot_backend": "pillow"
+}

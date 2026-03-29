@@ -1,0 +1,10 @@
+{
+  "result_count": 24,
+  "output_csv": "/home/flydream/VsCodeprojection/codex/result/sensitivity_results.csv",
+  "plots": [
+    "/home/flydream/VsCodeprojection/codex/result/sensitivity_failure_multiplier.png",
+    "/home/flydream/VsCodeprojection/codex/result/sensitivity_service_time_multiplier.png",
+    "/home/flydream/VsCodeprojection/codex/result/sensitivity_arrival_rate.png",
+    "/home/flydream/VsCodeprojection/codex/result/sensitivity_resource_capacity.png"
+  ]
+}
