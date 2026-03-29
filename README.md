@@ -1,2 +1,4 @@
 # model_simulation
 Discrete-event simulation framework for robotic testing systems with algorithm refactoring, robustness analysis, and model consistency validation.
+First, the model_solve file was developed based on the mathematical model. Subsequently, the Monte Carlo algorithm and the discrete-event simulation algorithm were employed to solve the problem. Finally, consistency verification, robustness analysis, and sensitivity analysis were conducted on the two sets of results. The final findings indicate that the mathematical model possesses a high level of confidence and exhibits a strong degree of consistency with the simulation results. Thus, the model can be deemed valid and applicable.
+All code implementations and result visualizations were developed and executed under the Ubuntu 22.04 operating system
